@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 
 // Your HuggingFace API Key (not used yet for demo)
-const HF_API_KEY = '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';
+const HF_API_KEY = '';
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/AIquiz', {
